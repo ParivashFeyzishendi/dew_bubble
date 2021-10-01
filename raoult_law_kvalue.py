@@ -63,5 +63,4 @@ if __name__ == '__main__':
     if abs( Td - 333.0 ) > 0.2:
         print('FAILED.  Expected dew point temperature of 333.0 but found {:.1f}'.format(Td))
 
-
     print('\n\t-> Bubble point: {:.1f} K\n\t-> Dew    point: {:.1f} K'.format(Tb,Td))
